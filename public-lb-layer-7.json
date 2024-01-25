@@ -78,7 +78,9 @@
       "name": "[parameters('publicIPAddressName')]",
       "location": "[resourceGroup().location]",
       "properties": {
-        "publicIPAllocationMethod": "Static"
+        "publicIPAllocationMethod": "Static",
+        "sku": {
+          "name": "Standard"
       }
     },
     {
