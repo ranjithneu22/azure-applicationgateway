@@ -79,6 +79,9 @@
       "location": "[resourceGroup().location]",
       "properties": {
         "publicIPAllocationMethod": "Static"
+        "sku": {
+          "name": "Standard"
+        }
       }
     },
     {
