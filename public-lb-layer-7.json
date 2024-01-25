@@ -92,7 +92,7 @@
       "properties": {
         "sku": {
           "name": "[parameters('skuName')]",
-          "tier": "Standard",
+          "tier": "WAF_v2",
           "capacity": "[parameters('capacity')]"
         },
         "gatewayIPConfigurations": [
